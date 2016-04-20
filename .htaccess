@@ -1,0 +1,7 @@
+AddDefaultCharset ISO-8859-1
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_flag session.auto_start on
+php_flag session.bug_compat_42 on
+php_flag session.bug_compat_warn on

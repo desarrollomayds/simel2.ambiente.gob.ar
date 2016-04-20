@@ -1,0 +1,12 @@
+06900001:
+  message: 'La empresa se encuentra suspendida para realizar actividades.'
+	type: 'danger'
+06900002:
+  message: 'El generador fue creado a trav&eacute;s de un alta temprana y ha superado el per&iacute;odo permitido para operar sin un expediente. El generador debe presentarte en la DRP para continuar con el tr&aacute;mite de registraci&oacute;n.'
+	type: 'danger'
+06900003:
+  message: 'El establecimiento no puede formar parte de este manifiesto ya que su CAA se encuentra vencido'
+	type: 'danger'
+06900004:
+  message: 'El CUIT se encuentra registrado pero no es una Empresa Naviera/Mar&iacute;tima.'
+	type: 'danger'

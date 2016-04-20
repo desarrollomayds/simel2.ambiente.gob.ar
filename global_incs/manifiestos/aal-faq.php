@@ -1,0 +1,175 @@
+<?
+require_once('../global_incs/librerias/local.inc.php');
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>DRP :: Direcci&oacute;n de Residuos Peligrosos</title>
+<link href="css/estilos-general.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="MM_preloadImages('images/btn-ingresar-sistema-on.gif')">
+<div id="top">
+  <div id="contenido-top"><a href="<? echo mel::getBaseMelPath(); ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image18','','images/btn-ingresar-sistema-on.gif',1)"><img src="images/btn-ingresar-sistema.gif" name="Image18" width="190" height="42" border="0" id="Image18" /></a></div>
+</div>
+<div id="contenedor-slide">
+<div id="slide-interiores">
+<div id="contenedor-menu">
+<div id="logo"><a href="<? echo mel::getBaseWebPath(); ?>"><img src="images/logoDRP.gif" width="182" height="80" border="0" /></a></div>
+<div id="menu">
+<ul id="nav">
+	<li><a href="index.php">Inicio</a></li>
+    <li><img src="images/separador-boton.gif" vspace="5" /></li>
+	<li><a href="generadores.php">Generadores</a></li>
+    <li><img src="images/separador-boton.gif" vspace="5" /></li>
+	<li ><a href="transportistas.php">Transportistas</a></li>
+    <li><img src="images/separador-boton.gif" vspace="5" /></li>
+	<li ><a href="operadores.php">Operadores</a></li>
+    <li><img src="images/separador-boton.gif" vspace="5" /></li>
+	<li class="seleccionado"><a href="aal.php">AAL</a></li>
+      <li><img src="images/separador-boton.gif" vspace="5" /></li>
+	<li><a href="contacto.php">Contacto</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="contenedor-info">
+<div id="tit-seccion">
+<div style="width:16px; height:41px; float:left"> <img src="images/borde-izq-tit-interiores.gif" width="16" height="41" /> </div>
+<div style="width:868px; height:41px; float:left; background-color:#1F99CD">AAL<span class="subtit-seccion"></span> - <span class="subtit-seccion">(Autoridad Ambiental Local) </span><span class="subtit-seccion">Preguntas Frecuentes (F.A.Q.)</span></div>
+<div style="width:16px; height:41px; float:left"> <img src="images/borde-der-tit-interiores.gif" width="16" height="41" /> </div>
+</div>
+
+<div id="contenido-seccion-izq">
+<div class="submenu">
+<ul>
+<li><a href="aal-quien.php"> &iquest;Qui&eacute;n debe registrarse? </a></li>
+<li> <a href="aal-que.php">&iquest;Qu&eacute; necesito para Registrarme?</a></li>
+<li><a href="aal-tramite.php">&iquest;Cu&aacute;l es el estado de mi tramite?</a></li>
+<li><a href="aal-leyes.php"> Leyes que reglamentan RP </a></li>
+<li><a href="aal-faq.php"> <span class="submenu-seleccionado">Preguntas Frecuentes</span></a></li>
+
+
+</ul>
+
+</div>
+ <?php include("incs/registracion.php"); ?>
+
+ <?php include("incs/noticias-generales.php"); ?>
+
+
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+<br />
+</div>
+
+</div>
+<div id="contenido-seccion-der">
+  <div id="contenido-submenu">
+   <strong><em><a href="#1" class="boton-general">1 - &iquest;Qu&eacute; es y para que sirve el sistema de manifiestodrp?</a><br />
+            <a href="#2" class="boton-general">2 - &iquest;C&oacute;mo obtengo el acceso al sistema?</a></em></strong><br />
+            <strong><em><a href="#3" class="boton-general">3 - &iquest;Puedo tener varios usuarios de acceso al sistema para  mi empresa?</a><br />
+            <a href="#4" class="boton-general">4 - &iquest;C&oacute;mo est&aacute; conformado el usuario de acceso?</a></em></strong><br />
+            <strong><em><a href="#5" class="boton-general">5 - &iquest;Puedo tener m&aacute;s de un usuario por establecimiento</a></em></strong><a href="#5" class="boton-general"><strong><em>?</em></strong></a><strong><em><br />
+            <a href="#6" class="boton-general">6 - &iquest;Es obligatorio el empadronamiento?</a></em></strong><br />
+            <strong><em><a href="#7" class="boton-general">7 - &iquest;Qui&eacute;nes y Donde retiro mi usuario de acceso al  sistema?</a><br />
+            <a href="#8" class="boton-general">8 - &iquest;Cu&aacute;l es el costo del empadronamiento?</a></em></strong><br />
+            <strong><em><a href="#9" class="boton-general">9 - &iquest;Cu&aacute;les son los plazos para empadronarse?</a></em></strong><br />
+            <strong><em><a href="#10" class="boton-general">10 - &iquest;A partir de qu&eacute; fecha es obligatorio pasar del  sistema manual de manifiestos al sistema electr&oacute;nico?</a><br />
+            <a href="#11" class="boton-general">11 - &iquest;Se mantiene el viejo sistema manual?</a></em></strong><br />
+            <strong><em><a href="#12" class="boton-general">12 - &iquest;Cu&aacute;les son los navegadores soportados para este  sistema?</a></em></strong>
+    <p><strong><em><br />
+            <a name="1" id="1"></a>1 - &iquest;Qu&eacute; es y para que sirve el sistema de manifiestodrp?</em></strong><br />
+      El sistema de manifiesto es un sistema inform&aacute;tico que  permite reemplazar todas las tareas que se realizan sobre los manifiestos  preimpresos en papel y que se adquieren en la DRP por manifiestos electr&oacute;nicos  mediante el uso de una herramienta inform&aacute;tica, de acceso gratuito. <br />
+    </p>
+    <p><strong><em><a name="2" id="2"></a>2 - &iquest;C&oacute;mo obtengo el acceso al sistema?</em></strong><br />
+      Ingresando dese este sitio web al bot&oacute;n &ldquo;solicitud de  acceso al sistema&rdquo;, completando la totalidad de los datos presentando en  pantalla y presentando por duplicado la solicitud que se emite por sistema ante  la Direcci&oacute;n de residuos Peligrosos.<br />
+  <br />
+  <strong><em><a name="3" id="3"></a> 3 - &iquest;Puedo tener varios usuarios de acceso al sistema para  mi empresa?</em></strong><br />
+      Solo se puede obtener un usuario/acceso por cada  establecimiento f&iacute;sicamente localizable. <br />
+  <br />
+  <strong><em><a name="4" id="4"></a>4 - &iquest;C&oacute;mo est&aacute; conformado el usuario de acceso?</em></strong><br />
+      El usuario &uacute;nico estar&aacute; conformado por el n&uacute;mero de  CUIT de la empresa, de once (11) d&iacute;gitos, continuando con su n&uacute;mero consecutivo  incremental de 1 a n establecimientos registre bajo su responsabilidad.<br />
+  &nbsp;Ejemplo:<br />
+      Empresa Prueba SRL CUIT: 27-12345678-9 registra sus  establecimientos: Genera1 y Genera2 ) como usuarios: 27123456789/1 y  27123456789/2 respectivamente.<br />
+  <br />
+  <strong><em><a name="5" id="5"></a>5 - &iquest;Puedo tener m&aacute;s de un usuario por establecimiento?<br />
+  </em></strong>No.  El usuario act&uacute;a como &uacute;nico identificador del establecimiento ya que no solo se  encuentra georeferenciado por sistema seg&uacute;n lo declarado por los actores responsables, sino que es &uacute;nico para la identificaci&oacute;n  del sistema manifiesto y la Direcci&oacute;n de residuos Peligrosos.<br />
+  <br />
+  <a name="6" id="6"></a><strong><em>6 - &iquest;Es obligatorio el empadronamiento?</em></strong><br />
+      Si. Seg&uacute;n lo expresado en la Resoluci&oacute;n xxx/2012 de la  Direcci&oacute;n de Residuos Peligroso.</p>
+    <p><strong><em><a name="7" id="7"></a>7 - &iquest;Qui&eacute;nes y Donde retiro mi usuario de acceso al  sistema?</em></strong><br />
+      Los representantes </p>
+    <p><strong><em><a name="8" id="8"></a>8 - &iquest;Cu&aacute;l es el costo del empadronamiento?</em></strong><br />
+      El empadronamiento es un servicio p&uacute;blico gratuito.<br />
+  &nbsp;<br />
+  <strong><em><a name="9" id="9"></a>9 - &iquest;Cu&aacute;les son los plazos para empadronarse?</em></strong><br />
+      Empresas y Establecimientos del tipo &ldquo;Operadores&rdquo; del  1 al 30 del mes de ____2012<br />
+      Empresas y Establecimientos del tipo &ldquo;Transportista&rdquo;  del 1 al 30 del mes de ____2012<br />
+      Empresas y Establecimientos del tipo &ldquo;Generadores&rdquo; del  1 al 30 del mes de ____2012</p>
+    <p><strong><em><a name="10" id="10"></a>10 - &iquest;A partir de qu&eacute; fecha es obligatorio pasar del  sistema manual de manifiestos al sistema electr&oacute;nico?<br />
+    </em></strong>A partir del 1 de _____2012, se debe pasar a utilizar  el sistema online de manifiestos. </p>
+    <p><a name="11" id="11"></a><strong><em>11 - &iquest;Se mantiene el viejo sistema manual?</em></strong><br />
+      No. Salvo excepciones que deber&aacute;n ser comunicadas ante  la Direcci&oacute;n de residuos Peligrosos por falta de acceso a internet o por falta  de energ&iacute;a el&eacute;ctrica </p>
+    <p><a name="12" id="12"></a><strong><em>12 - &iquest;Cu&aacute;les son los navegadores soportados para este  sistema?<br />
+      </em></strong>El sistema inform&aacute;tico Manifiestos - DRP recomienda la  utilizaci&oacute;n de los navegadores: <br />
+      <strong>Microsoft Internet Explorer 7 &oacute; superior </strong><br />
+    <a href="http://www.microsoft.com/latam/windows/internet-explorer/">http://www.microsoft.com/latam/windows/internet-explorer/</a> </p>
+    <p><strong>Mozilla Firefox 4.0 &oacute; superior.</strong><br />
+        <a href="http://www.mozilla.org/es-AR/firefox/fx/?gclid=CJqF0srN9aICFUsJ2godpAaFhA">http://www.mozilla.org/es-AR/firefox/fx/?gclid=CJqF0srN9aICFUsJ2godpAaFhA</a> <br />
+      Independientemente del explorador que elijamos <strong>se debe tener activo Javascript en nuestro  explorador.</strong></p>
+    <br />
+  </div>
+  <br />
+<div class="separador"> </div>
+
+  <br />
+  <br />
+
+
+</div></div>
+
+ <?php include("incs/pie.html"); ?>
+</body>
+</html>

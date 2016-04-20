@@ -1,0 +1,61 @@
+session:
+	ttl: 7200
+	ldap:
+		server: '192.168.0.1'
+		user_search: 'uid=[[USER]],ou=Usuarios,dc=intranet,dc=com'
+		auth_mode: false
+framework:
+	url:
+		sitio: 'http://mel.ambiente.gob.ar'
+	path:
+		mel: 'manifiestos/me'
+		admin: 'manifiestos/admin'
+		web: 'manifiestos/manifiestos'
+		asset: 'manifiestos/assets'
+	subdomain:
+		mel: 'manifiestosme'
+		admin: 'manifiestosadmin'
+		web: 'manifiestosweb'
+	environment:
+		name: development
+		live: true
+	documentos:
+		path_manifiestos: '/home/httpd/manifiestos/documentos/manifiestos/'
+	email:
+		smtp_server: 'mailserver.ambiente.gob.ar'
+		smtp_puerto: '25'
+		smtp_usuario: 'infomel@ambiente.gob.ar'
+		smtp_contraseña: 'Im+2015$*'
+		mail_salida: 'noreply@ambiente.gob.ar'
+		mail_entrada: 'infomel@ambiente.gob.ar'
+		cantidad_max_envios: '10'
+	seguridad:
+		recaptcha_activo: false
+		password_regex: '/(?=^.{8,}$)(?=.*\d+)(?=.*[A-Z])(?=.*[a-z]).*$/'
+		key:
+			recaptcha_key_publica: '6Ldy6goTAAAAAHOqzKUNLGmNhgy0U2EcWb-u22d6'
+			recaptcha_key_privada: '6Ldy6goTAAAAADYK3zF3GaX4LMy2YZYEKaalqBr9'
+  	public:
+		mel:
+			login: 'login/login_usuario.php'
+			logout: 'login/logout_usuario.php'
+			registro_1: 'registracion/paso_1.php'
+			registro_2: 'registracion/paso_2.php'
+			registro_3: 'registracion/paso_3.php'
+			registro_4: 'registracion/paso_4.php'
+			finalizar: 'registracion/finalizar.php'
+			imprimir: 'registracion/imprimir.php'
+			restablecer: 'login/restablecer/index.php'
+
+			ajax_localidades: 'servicios/localidades.php'
+			ajax_responsable_legal: 'registracion/responsable_legal.php'
+			ajax_responsable_tecnico: 'registracion/responsable_tecnico.php'
+			ajax_agregar_establecimiento: 'registracion/establecimiento.php'
+			ajax_permisos_establecimiento: 'registracion/permisos_establecimiento.php'
+			ajax_permiso_establecimiento: 'registracion/permiso_establecimiento.php'
+			ajax_vehiculos_establecimiento: 'registracion/vehiculos_establecimiento.php'
+			ajax_vehiculo: 'registracion/vehiculo.php'
+			ajax_permisos_vehiculo: 'registracion/permisos_vehiculo.php'
+			ajax_permiso_vehiculo: 'registracion/permiso_vehiculo.php'
+		admin:
+			login: 'login/login_usuario.php'

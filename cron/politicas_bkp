@@ -1,0 +1,8 @@
+#!/usr/bin/php
+<?
+$DOCUMENT_ROOT = "/sitios/simel.ambiente.gob.ar";
+//$DOCUMENT_ROOT = "/home/httpd/manifiestos";
+
+$_SERVER["DOCUMENT_ROOT"] = $DOCUMENT_ROOT;
+require_once($DOCUMENT_ROOT."/cron/politicas_mel.php");
+?>

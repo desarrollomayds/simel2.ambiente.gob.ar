@@ -1,0 +1,99 @@
+
+/*utiles*/
+.invisible { display: none; }
+
+.div_mapa {
+	/*display: none;*/
+	height: 350;
+	width:  350;
+}
+
+img a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+}
+
+img{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0; 
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.hand{
+    cursor: hand;
+    cursor: pointer;
+}
+.separa{
+    width: 50px;
+    height: 10px;
+    float: right;
+}
+
+/* Cambios Flor*/
+
+/* POPUP*/
+
+.backGrey{
+    background-color:#EAEAE5;
+}
+
+.headerPopUp{
+    width: 100%;
+    height: 32px;
+    background-color: #4d90fe;
+    color: #ffffff;
+}
+
+.textLeft{
+    color:white;
+    padding-top: 7px;
+    margin-left: 5px;
+    background-color:#4D90FE;
+    text-align:left;
+    float: left;
+    width: 300px;
+}
+
+.imgCerrar{
+    float: right;
+}
+
+.imgCerrar img{
+    text-decoration: none;
+    margin: 0;
+    padding: 3px;
+    border: 0;
+    outline: 0;
+}
+
+.clear20{
+    width: 100%;
+    height: 20px;
+    clear:both;
+}
+
+.bottonLeft{
+    width: 40%;
+    float: left;
+    margin-left: 15px;
+}
+
+.bottonRight{
+    width: 40%;
+    float: right;
+    margin-right:15px;
+}

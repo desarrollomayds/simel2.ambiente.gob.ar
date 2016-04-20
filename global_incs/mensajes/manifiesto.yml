@@ -1,0 +1,36 @@
+07300001:
+	message: 'El CAA del transportista no se encuentra vigente.'
+	type: 'danger'
+07300002:
+	message: 'El CAA del operador no se encuentra vigente.'
+	type: 'danger'
+07300003:
+	message: 'Es necesario especificar al menos un establecimiento transportista'
+	type: 'danger'
+07300004:
+	message: 'Es necesario especificar un establecimiento operador'
+	type: 'danger'
+07300005:
+	message: 'Es necesario especificar al menos un veh&iacute;culo'
+	type: 'danger'
+07300006:
+	message: 'Es necesario especificar al menos un residuo'
+	type: 'danger'
+07300007:
+	message: 'Es necesario especificar un establecimiento generador'
+	type: 'danger'
+07300008:
+	message: 'Los residuos elegidos no corresponden al tipo de manifiesto que se est&aacute; creando'
+	type: 'danger'
+07300009:
+	message: 'Ud no posee los permisos para operar con este tipo de manifiesto. Contacte al administrador.'
+	type: 'danger'
+07300010:
+	message: 'Indique la cantidad estimada de residuo que se va a recibir por generador.'
+	type: 'danger'
+07300011:
+	message: 'La suma de cantidades esperadas por generador no coincide con la cantidad total de residuo indicado.'
+	type: 'danger'
+07300012:
+	message: 'No le quedan Manifiestos libres para utilizar.'
+	type: 'danger'

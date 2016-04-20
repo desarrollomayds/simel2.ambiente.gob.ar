@@ -1,0 +1,16 @@
+mi_cuenta:
+	07500001:
+		message: 'Indique su nombre.'
+		type: 'danger'
+	07500002:
+		message: 'Indique su apellido'
+		type: 'danger'
+	07500003:
+		message: 'Debe elegir su sexo.'
+		type: 'danger'
+	07500004:
+		message: 'El nro de documento no es v&aacute;lido.'
+		type: 'danger'
+	07500005:
+		message: 'La fecha de nacimiento no es v&aacute;lido.'
+		type: 'danger'

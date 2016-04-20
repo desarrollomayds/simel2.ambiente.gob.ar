@@ -1,0 +1,1 @@
+<img src="generador_codigo_barras.php?cb=54161000000070000000000000010007" />

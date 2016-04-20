@@ -1,0 +1,24 @@
+07100001:
+  message: 'El parametro no existe'
+	type: 'danger'
+07100002:
+	message: 'La sesión no esta activa'
+	type: 'danger'
+07100003:
+	message: 'El nombre de usuario o la contraseña son incorrectos'
+	type: 'danger'
+07100004:
+	message: 'Tiempo de sesión excedido'
+	type: 'warning'
+07100005:
+	message: 'Debe iniciar sesión si desea acceder a este contenido.'
+	type: 'warning'
+07100006:
+	message: 'No posee permisos para acceder a esta sección.'
+	type: 'danger'
+07100007:
+	message: 'El lanzamiento del sitio ser&aacute; productivo el 1ero de Octubre.'
+	type: 'info'
+07100008:
+	message: 'SIMEL se encuentra momentanemente fuera de servicio. Por favor intente ingresar nuevamente en unos momentos.'
+	type: 'warning'

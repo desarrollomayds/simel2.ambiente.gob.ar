@@ -1,0 +1,196 @@
+  input.text_field, textarea {
+    background: url("/imagenes/input_bg.gif") repeat-x scroll center top #FFFFFF;
+    border: 1px solid #BBBBBB;
+    color: #222222;
+    font: 13px 'Lucida Grande',Helvetica,Arial,sans-serif;
+    /*margin: 0;*/
+    outline: 0 none;
+    padding: 7px;
+}
+   button.positive, button.negative, button.generic, input.generic {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    color: #565656;
+    cursor: pointer;
+    font: 15px/36px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 36px;
+    margin: 0;
+    overflow: visible;
+    padding: 0 14px 0 12px;
+    width: 1px;
+     width: auto;
+}
+            
+            .arriba:hover{
+                background-color: #F2F2F2;
+                padding:  5px;
+                border-radius:3px;
+                cursor: pointer;
+                cursor: hand;
+            }
+            .mailMenu{
+                height: 71px;
+                text-align: center;
+                border-bottom: 0 none;
+                position: relative;
+                word-wrap: break-word;
+            }
+            .new_post_label {
+                color: #575D69;
+                float: left;
+                font-size: 15px;
+                font-weight: normal;
+                height: 20px;
+                left: 0 !important;
+                opacity: 0.9;
+                padding-bottom: 18px;
+                padding-right: 1px;
+                padding-top: 61px;
+                position: relative !important;
+                text-align: center;
+                text-decoration: none;
+                top: 0 !important;
+                width: 75px;
+            }
+            #new_post_label_text .new_post_label_icon {
+                background-position: 2px -5px;
+            }
+            .new_post_label .new_post_label_icon {
+                background-image: url("/imagenes/iconos.png");
+                background-repeat: no-repeat;
+                display: block;
+                height: 90px;
+                left: 0;
+                position: absolute;
+                top: 5px;
+                width: 76px;
+            }
+            #posts .post.new_post .new_post_label {
+                color: #575D69;
+                float: left;
+                font-size: 15px;
+                font-weight: normal;
+                height: 20px;
+                left: 0 !important;
+                opacity: 0.9;
+                padding-bottom: 18px;
+                padding-right: 1px;
+                padding-top: 61px;
+                position: relative !important;
+                text-align: center;
+                text-decoration: none;
+                top: 0 !important;
+                width: 75px;
+            }
+            #new_post_label_photo .new_post_label_icon {
+                background-position: -73px -5px;
+            }
+            #posts .post.new_post .new_post_label {
+                color: #575D69;
+                float: left;
+                font-size: 15px;
+                font-weight: normal;
+                height: 20px;
+                left: 0 !important;
+                opacity: 0.9;
+                padding-bottom: 18px;
+                padding-right: 1px;
+                padding-top: 61px;
+                position: relative !important;
+                text-align: center;
+                text-decoration: none;
+                top: 0 !important;
+                width: 75px;
+            }
+            #new_post_label_quote .new_post_label_icon {
+                background-position: -148px -5px;
+            }
+            #posts .post.new_post .new_post_label {
+                color: #575D69;
+                float: left;
+                font-size: 15px;
+                font-weight: normal;
+                height: 20px;
+                left: 0 !important;
+                opacity: 0.9;
+                padding-bottom: 18px;
+                padding-right: 1px;
+                padding-top: 61px;
+                position: relative !important;
+                text-align: center;
+                text-decoration: none;
+                top: 0 !important;
+                width: 75px;
+            }
+            #new_post_label_link .new_post_label_icon {
+                background-position: -223px -5px;
+            }
+            #posts .post.new_post .new_post_label {
+                color: #575D69;
+                float: left;
+                font-size: 15px;
+                font-weight: normal;
+                height: 20px;
+                left: 0 !important;
+                opacity: 0.9;
+                padding-bottom: 18px;
+                padding-right: 1px;
+                padding-top: 61px;
+                position: relative !important;
+                text-align: center;
+                text-decoration: none;
+                top: 0 !important;
+                width: 75px;
+            }
+            #new_post_label_chat .new_post_label_icon {
+                background-position: -298px -5px;
+            }
+            #posts .post.new_post .new_post_label {
+                color: #575D69;
+                float: left;
+                font-size: 15px;
+                font-weight: normal;
+                height: 20px;
+                left: 0 !important;
+                opacity: 0.9;
+                padding-bottom: 18px;
+                padding-right: 1px;
+                padding-top: 61px;
+                position: relative !important;
+                text-align: center;
+                text-decoration: none;
+                top: 0 !important;
+                width: 75px;
+            }
+            #new_post_label_audio .new_post_label_icon {
+                background-position: -373px -5px;
+            }
+            #posts .post.new_post .new_post_label {
+                color: #575D69;
+                float: left;
+                font-size: 15px;
+                font-weight: normal;
+                height: 20px;
+                left: 0 !important;
+                opacity: 0.9;
+                padding-bottom: 18px;
+                padding-right: 1px;
+                padding-top: 61px;
+                position: relative !important;
+                text-align: center;
+                text-decoration: none;
+                top: 0 !important;
+                width: 75px;
+            }
+            #new_post_label_video .new_post_label_icon {
+                background-position: -448px -5px;
+            }

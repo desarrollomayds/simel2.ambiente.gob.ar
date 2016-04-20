@@ -1,0 +1,20 @@
+ls#! /bin/bash
+
+# Declaracion de variables
+# user="admin_dbmel@localhost"
+# pass="15e3OhOx"
+
+#Posiciono el directorio
+cd /sitios/simel.ambiente.gob.ar/procesos
+
+# Descargo el archivo
+wget http://www.afip.gob.ar/genericos/cInscripcion/archivos/apellidoNombreDenominacion.zip
+
+# Descomprimo el archivo
+gzip -d -S .zip apellidoNombreDenominacion.zip
+
+# Importo a MySQL
+mysql -h vmweblinux.medioambiente.gov.ar -u admin_dbmel --password=15e3OhOx -e "LOAD DATA LOCAL INFILE '/sitios/simel.ambiente.gob.ar/procesos/apellidoNombreDenominacion' REPLACE INTO TABLE admin_dbmel.personas_juridicas FIELDS TERMINATED BY '|' LINES TERMINATED BY '\n' (@var1) SET pejID=SUBSTR(@var1,1,11), pejRazonSocial=SUBSTR(@var1,12,30), pejGA=SUBSTR(@var1,42,2), pejIVA=SUBSTR(@var1,44,2), pejMO=SUBSTR(@var1,46,2), pejIS=SUBSTR(@var1,48,1), pejEM=SUBSTR(@var1,49,1), pejAM=SUBSTR(@var1,50,2), pejFecReg=NOW()"
+
+# Elimino el archivo
+unlink /sitios/simel.ambiente.gob.ar/procesos/apellidoNombreDenominacion

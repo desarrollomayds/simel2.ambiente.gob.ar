@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Paginator by Wilson Fernandez</title>
+    <meta content="paginator, mini paginator, pagination" name="keywords">
+    <meta content="PHP pagination script" name="description">
+    <meta content="Wilson Fernandez" name="author">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <table border='0' width='900'>
+        <tr>
+            <td>
+                <h1>Mini Paginator by Wilson Fernandez (English
+                instructions)</h1>
+
+                <p>"Mini Paginator", made entirely in php, designed in the
+                simplest possible way for implementation, the script consists
+                of a single php file that contains the "paginator" class that
+                gets the parameters from a MySQL query and calculate, based on a
+                maximum number of results per page, how many pages are total
+                displayed, together with the class file its one css file that
+                contains 2 different styles, one light and another one dark,
+                the class can use this css, or another one choosen by the
+                user.</p>
+
+                <p>The data required to run the class are three</p>
+
+                <p>$total_results = $num_rows; // total results from a query<br>
+                $maximum_per_page = 3; // maximum results to show per page<br>
+                $maximun_links = 5; // maximum links to show<br></p>
+
+                <p></p>
+
+                <h1>Implementation</h1>
+
+                <p>First copy the folder "Paginator" to the directory where the
+                pagination is required, then use the following sample
+                code.</p><img src='screenshots/1.jpg'>
+
+                <h1>The most important</h1>
+
+                <p>The first query gives the total data to be displayed and
+                store it in $total_results.</p><img src='screenshots/2.jpg'>
+
+                <p>Then we define the parameters that we want,
+                how many results per page we want to $maximun_per_page and
+                maximum of links to display in $maximun_links.</p><img src=
+                'screenshots/3.jpg'>
+
+                <p>Then we come to the process of paging, here we choose the
+                style , "Light" or "Dark".</p><img src='screenshots/4.jpg'>
+
+                <p>We continue the process by the second query with the "LIMIT"
+                clausule where we use the parameter $page-&gt;limit, here is
+                where the magic is made.</p><img src='screenshots/5.jpg'>
+
+                <p>The last thing is show the pagination results.</p><img src=
+                'screenshots/6.jpg'>
+
+                <p>The demo of this code can see it in
+                http://multicoders.com/scripts/mini_paginator/test.php</p>
+            </td>
+        </tr>
+    </table>
+
+    <table border='0' width='900'>
+        <tr>
+            <td>
+                <h1>Mini Paginator by Wilson Fernandez (Instrucciones en
+                español)</h1>
+
+                <p>"Mini Paginator" es un script hecho íntegramente en php,
+                pensado en la forma de implementación más simple posible, el
+                script consta de un solo archivo php que contiene la clase
+                "paginator" que recibe los parámetros de una consulta MySQL y
+                calcula, en base a un numero de máximos resultados por página,
+                en cuantas páginas se mostrara el total de resultados,
+                adicionalmente junto con el archivo de la clase se encuentra un
+                archivo css que contiene 2 estilos diferentes, uno claro y otro
+                oscuro, la clase puede usar este css u otro que el usuario
+                elija.</p>
+
+                <p>Los datos que requiere la clase para poder funcionar son
+                3</p>
+
+                <p>$total_results = $num_rows; // total de resultados a
+                paginar<br>
+                $maximum_per_page = 3; // máximo de resultados por pagina<br>
+                $maximun_links = 5; // máximo de links a mostrar<br></p>
+
+                <p></p>
+
+                <h1>Modo de implementación</h1>Primero copiar la carpeta
+                “paginator” al directorio donde se requiere la paginación,
+                luego seguir el siguiente código de ejemplo.
+
+                <p><img src='screenshots/1.jpg'></p>
+
+                <h1>Lo más importante</h1>
+
+                <p>En el primer query obtenemos el total de datos a mostrar y
+                lo guardamos en $total_results.</p><img src=
+                'screenshots/2.jpg'>
+
+                <p>Luego definimos los parámetros que queremos a nuestro
+                antojo, cuantos resultados por página queremos en
+                $maximun_per_page y el máximo de links a mostrar en
+                $maximun_links.</p><img src='screenshots/3.jpg'>
+
+                <p>Luego llegamos al proceso de paginación, aquí elegimos el
+                estilo del paginador, “Light” o “Dark”.</p><img src=
+                'screenshots/4.jpg'>
+
+                <p>Continuamos con el proceso haciendo la segunda query con la
+                cláusula “LIMIT” donde usamos el parámetro $page-&gt;limit,
+                aquí es donde se hace la magia.</p><img src=
+                'screenshots/5.jpg'>
+
+                <p>Lo último que nos falta es mostrar el resultado de la
+                paginación.</p><img src='screenshots/6.jpg'>
+
+                <p>El demo de este código puedes verlo en
+                http://multicoders.com/scripts/mini_paginator/test.php</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

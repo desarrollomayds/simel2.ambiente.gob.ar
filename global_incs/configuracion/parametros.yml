@@ -1,0 +1,96 @@
+session:
+	ttl: 7200
+	ldap:
+		server: '192.168.1.56'
+		user_search: 'uid=[[USER]],CN=GRP_simel_admin2,OU=Grupos de Dominio,DC=MEDIOAMBIENTE,DC=GOV,DC=AR'
+		auth_mode: false
+framework:
+	url:
+		sitio: 'https://simel2.ambiente.gob.ar'
+	path:
+		mel: 'simel2.ambiente.gob.ar/me'
+		admin: 'simel2.ambiente.gob.ar/admin'
+		web: 'simel2.ambiente.gob.ar/manifiestos'
+		asset: 'simel2.ambiente.gob.ar/assets'
+	subdomain:
+		mel: 'simel2.ambiente.gob.ar/me'
+		admin: 'simel2.ambiente.gob.ar/admin'
+		web: 'simel2.ambiente.gob.ar/manifiestos'
+	environment:
+		name: prod
+		live: true
+		system_offline: false
+	paginador:
+		resultados_por_pagina: 50
+		cantidad_links: 10
+		limit: 1000
+	caa:
+		validar_generador: true
+	alertas:
+		prioridad:
+			sitio_live: sitioLive
+			checkeo_caa: caaEsValido
+			checkeo_formularios: tieneFormularios
+	documentos:
+		path_manifiestos: '/pdfmanifiestos/manifiestos/'
+		path_boletas: '/pdfmanifiestos/boletas_pago/'
+	manifiestos:
+		protocolo_inicial: 688546
+	email:
+		smtp_server: 'x2003fe.medioambiente.gov.ar'
+		smtp_puerto: '25'
+		smtp_usuario: 'veeam@medioambiente.gov.ar'
+		smtp_contrasena: 'Vv123456+'
+		no_reply_email: 'noreply@ambiente.gob.ar'
+		with_reply_email: 'infomel@ambiente.gob.ar'
+		mail_entrada: 'infomel@ambiente.gob.ar'
+		cantidad_max_envios: '10'
+		development_email_to: 'ndlascano@gmail.com'
+		email_administrador : 'ndlascano@gmail.com'
+	vencimiento:
+		vencimiento_generador: 240
+		manifiesto_sin_aprobar: 5
+		manifiesto_sin_recibir: 45
+		primer_recordatorio_recepcion_pendientes: 15
+		segundo_recordatorio_recepcion_pendientes: 40
+		recordatorio_vencimiento_caa: 5
+	boletas:
+		modulo_activo: 'no'
+		multiplo: 10
+		valores_select: '1,5,10,20,50'
+		importe_manifiesto: 10
+	seguridad:
+		recaptcha_activo: true
+		password_regex: '/(?=^.{8,}$)(?=.*\d+)(?=.*[A-Z])(?=.*[a-z]).*$/'
+		#password_regex: '/.+$/'
+		key:
+			recaptcha_key_publica: '6Ldy6goTAAAAAHOqzKUNLGmNhgy0U2EcWb-u22d6'
+			recaptcha_key_privada: '6Ldy6goTAAAAADYK3zF3GaX4LMy2YZYEKaalqBr9'
+	public:
+		mel:
+			login: 'login/login_usuario.php'
+			logout: 'login/logout_usuario.php'
+			registro_1: 'registracion/paso_1.php'
+			registro_2: 'registracion/paso_2.php'
+			registro_3: 'registracion/paso_3.php'
+			registro_4: 'registracion/paso_4.php'
+			finalizar: 'registracion/finalizar.php'
+			imprimir: 'registracion/imprimir.php'
+			restablecer: 'login/restablecer/index.php'
+			restablecer_clave : 'login/restablecer/finalizado.php'
+			usuario_pendiente: 'usuario_pendiente_aprobacion.php'
+			usuario_rechazado: 'usuario_rechazado.php'
+			alta_temprana_pendiente: 'alta_temprana_pendiente_aprobacion.php'
+
+			ajax_localidades: 'servicios/localidades.php'
+			ajax_responsable_legal: 'registracion/responsable_legal.php'
+			ajax_responsable_tecnico: 'registracion/responsable_tecnico.php'
+			ajax_agregar_establecimiento: 'registracion/establecimiento.php'
+			ajax_permisos_establecimiento: 'registracion/permisos_establecimiento.php'
+			ajax_permiso_establecimiento: 'registracion/permiso_establecimiento.php'
+			ajax_vehiculos_establecimiento: 'registracion/vehiculos_establecimiento.php'
+			ajax_vehiculo: 'registracion/vehiculo.php'
+			ajax_permisos_vehiculo: 'registracion/permisos_vehiculo.php'
+			ajax_permiso_vehiculo: 'registracion/permiso_vehiculo.php'
+		admin:
+			login: 'login/login_usuario.php'
